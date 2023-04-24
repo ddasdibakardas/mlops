@@ -15,9 +15,9 @@ def main():
     streamlit.title('Weather Prediction')
    
     #inputdataset
-    humidity_var     = streamlit.text_input('Humidity')
-    wind_speed_var   = streamlit.text_input('Wind Speed')
-    meanpressure_var = streamlit.text_input('Pressure')
+    humidity_var     = streamlit.text_input('Humidity (in Percent)')
+    wind_speed_var   = streamlit.text_input('Wind Speed (in Kmph)')
+    meanpressure_var = streamlit.text_input('Pressure (in mbar)')
     
     result = ''
     
