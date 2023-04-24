@@ -1,6 +1,6 @@
 import streamlit
 import pickle
-import 
+import numpy
 
 prediction_model = pickle.load(open('ml_regression_model.pkl','rb'))
 
